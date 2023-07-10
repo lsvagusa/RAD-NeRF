@@ -38,6 +38,7 @@ setup(
                 'shencoder.cu',
                 'bindings.cpp',
             ]],
+            include_dirs=['/home/ubuntu/.local/lib/python3.8/site-packages/pybind11/include'],
             extra_compile_args={
                 'cxx': c_flags,
                 'nvcc': nvcc_flags,
